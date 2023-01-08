@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.a {
+  text-indent: 10%;
+  font-family:Courier New;
+  font-size:15px;
+}
+div.b {
+  text-indent: 15%;
+  font-family:Courier New;
+  font-size:15px;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #E4694C;
+  color: white;
+  font-size: 12px
+}
+</style>
+</head>
+	<body>
+		<div style="text-align:center; background-color:#E4694C;">
+			<img src="rainbow2.jpg" width="444px"><img src="rainbow2.jpg" width="444px"><img src="rainbow2.jpg" width="444px">
+			<h1 style="color:white;">Address for an index Search</h1>
+			<img src="rainbow2.jpg" width="444px"><img src="rainbow2.jpg" width="444px"><img src="rainbow2.jpg" width="444px">
+		</div>
+		If a given hypertext node is an index, or the server has an index associated with it, then a search may be done on that index by suffixing the name of the index with a list of keywords, after a question mark:
+		<div class="a"><p style="font-family:Courier New font-size:15px">address_of_index ? keywordlist</p>
+		</div>
+		The address of the index is a normal hypertext address. In the keywordlist, multiple keywords are separated by plus signs (+) . (See <a ref="http://info.cern.ch/hypertext/WWW/Addressing/BNF.html">BNF syntax description</a>.) The resulting string still does not contain any spaces. It may be considered to be the hypertext address of a document which is the result of making the keyword search on the index. Normally, if the search was successful, the document returned will contain anchors leading to other documents which match the selection criteria.
+		<p>The search method, and the logical and lexical functions, weights, etc applied to the keywords will depend on the index address. One actual index may have several hypertext addresses, which when searched on will behave in different ways. For example, one may allow a search on author-given keywords only, while another may be a full text search. These things particular to an index should be descibed in the hypertext page for the index node itself (or in linked documents). For example, a server may allow specific boolean search combinations may be represented by the words "and", "or" and "not".</p>
+		<h3>Example:</h3>
+		<div class="b"><p style="font-family:Courier New font-size:15px">http://cernvm/FIND/?sgml+cms</p>
+		</div>
+		indicates the result of perfoming a search for keywords "sgml" and "cms" on the index http://cernvm/FIND/.
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<hr>
+		<footer>
+		Designed by: <a href="file:///C:/Users/JugHead/Documents/WebDev%20Course/HTML%20and%20CSS/WD34_EXERCISE1_CORNEJO.html"><i>Jennyfer Cornejo</i></a>
+		</footer>
+	</body>
+	
+</html>

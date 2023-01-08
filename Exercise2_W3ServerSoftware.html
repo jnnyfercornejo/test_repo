@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #E4694C;
+  color: white;
+  font-size: 12px
+}
+</style>
+</head>
+	<body>
+		<div style="text-align:center; background-color:#E4694C;">
+			<img src="rainbow2.jpg" width="444px"><img src="rainbow2.jpg" width="444px"><img src="rainbow2.jpg" width="444px">
+			<h1 style="color:white;">W3 Server Software</h1>
+			<img src="rainbow2.jpg" width="444px"><img src="rainbow2.jpg" width="444px"><img src="rainbow2.jpg" width="444px">
+		</div>
+			<p>A <a href="http://info.cern.ch/hypertext/WWW/NeXT/Installation.html">W3</a> server, like the ftp <a href="Exercise2_HypertextTerms.html#daemon">daemon</a> , is a program which responds to an incoming tcp connection and provides a service to the caller.
+			There are many varieties of W3 server software to serve different forms of data.</p>
+			<h3>The basic daemon</h3>
+			The basic W3 daemon program serves files already in hypertext or plain text. 
+			This daemon then is used as a basis for many other types of server and gateway. Documentation includes:
+			<ul>
+			<li><a href="Exercise2_DaemonUserGuide.html">User guide.</a></li>
+			<li><a href="http://info.cern.ch/hypertext/WWW/Daemon/Basic.html">Internals -- a description of the code</a>.</li>
+			</ul>
+			Much of the above may also apply in whole or part to other servers mentioned below. Whatever server you are running, you will probably be interested in:
+			<ul>
+			<li><a href="Exercise2_W3Tools.html">Tools for information providers</a></li>
+			</ul>
+			<h3>Making a new server</h3>
+			This daemon is often used as a basis for a more specific server for a given application. A server which allows a world of data to be seen as part of the W3 universe is known as a gateway. (Most servers could therefore be regarded as gateways, 
+			but the term implies some conversion or mapping between dissimilar worlds) . For short tutorials with examples, see:
+			<ul>
+			<li><a href="http://info.cern.ch/hypertext/WWW/Daemon/JanetAndJohn.html">Writing a server in C</a></li>
+			<li><a href="http://info.cern.ch/hypertext/WWW/Provider/ShellScript.html">Writing a server as a script</a></li>
+			</ul>
+			It is a good idea to pick the basic daemon or one of the servers below as a starting point when making a new server.
+			<h3>Other servers and Gateways</h3>
+			These are servers which provide data extracted from other systems. they are built using code from the basic daemon, or scripts.
+			<dl>
+				<dt><a href="http://info.cern.ch/hypertext/WWW/FIND/Overview.html">FIND gateway</a></dt>
+				<dd>For CERN/VM XFIND which calls a REXX exec to get the information from the XFIND system running on the CERNVM mainframe.</dd>
+				<dt><a href="http://info.cern.ch/hypertext/WWW/VMSHelp/Overview.html">VMS Help gateway</a></dt>
+				<dd>This allows any VMS help files to be made available to WWW clients. Runs on VAX/VMS.</dd>
+				<dt><a href="http://info.cern.ch/hypertext/WWW/Daemon/WAISGate.html">WAISGate</a></dt>
+				<dd>A gateway to information available using the W.A.I.S. protocol.</dd>
+				<dt><a href="http://info.cern.ch/hypertext/WWW/Daemon/DCLServer.html">DCLServer</a></dt>
+				<dd>A server for VMS systems which allows you to write a gateway to your own favorite information system using DCL.</dd>
+				<dt><a href="http://info.cern.ch/hypertext/WWW/Daemon/System33/Gateway.html">System33</a></dt>
+				<dd>A (big) csh script server providing data including Xerox System33 documents, man pages in plain text, phone numbers, etc. etc...!</dd>
+				<dt><a href="http://info.cern.ch/hypertext/WWW/Daemon/Oracle/Overview.html">Oracle</a></dt>
+				<dd>A generic server to oracle. Could be used as a basis for gateways to specific Oracle databases.</dd>
+				<dt><a href="http://info.cern.ch/hypertext/WWW/Daemon/Geography/Overview.html">Geography</a></dt>
+				<dd>Gateway to the Gography server at U Michigan.</dd>
+			</dl>	
+		<hr>
+		<footer>
+		Designed by: <a href="file:///C:/Users/JugHead/Documents/WebDev%20Course/HTML%20and%20CSS/WD34_EXERCISE1_CORNEJO.html"><i>Jennyfer Cornejo</i></a>
+		</footer>
+	</body>
+</html>
